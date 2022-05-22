@@ -130,6 +130,44 @@ section {
     left: 100px;
 }
 
+#symptoms{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(255,255,255,0.25),rgba(255,255,255,0.25)), url('https://t4.ftcdn.net/jpg/03/05/30/01/360_F_305300189_KC21WMiAZDMyvppfdMicwixwHenWjggu.jpg%27);
+    background-position: center;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+#symptoms h1{
+    font-size: 80px;
+    font-weight: 100;
+    margin-bottom: 20px;
+
+    color: #232d60;
+}
+
+#symptoms p{
+    font-size: 30px;
+    top: 0;
+    margin-bottom: 15px;
+    color: #6a7199;
+}
+
+#symptoms ul li{
+    font-size: 25px;
+    color: #333;
+    top: 0;
+
+}
+
+#symptoms .autism-child3-image{
+    height: 43%;
+}
+
 #donations{
     background-color: #dfe1f0;
     position: relative;
