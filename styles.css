@@ -9,8 +9,8 @@ header {
 	top:  0 ;
 	left: 0;
 	right: 0; 
-	height: 50px;
-	line-height: 50px;
+	height: 68px;
+	line-height: 65px;
 	background-color: #84b6f0;
 	
 }
@@ -164,7 +164,7 @@ section {
     height:40%;
     width: 30%;
 }
-.fa-facebook {
+/* .fa-facebook {
 	color:#333;
 	position: absolute;
     right: 100px;
@@ -197,7 +197,7 @@ section {
 	position: absolute;
     right: 115px;
 	text-decoration: none;
-}
+} */
 
 .center{
     text-align: center;
