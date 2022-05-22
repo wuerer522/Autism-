@@ -165,7 +165,10 @@ section {
 }
 
 #symptoms .autism-child3-image{
-    height: 43%;
+    height: 21%;
+    position: absolute;
+    bottom: 100px;
+    left: 100px;
 }
 
 #donations{
