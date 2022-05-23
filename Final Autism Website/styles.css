@@ -1,0 +1,306 @@
+body {
+    margin: 0;
+    margin-top: 50px;
+}
+
+header {
+	display: flex;
+	position: fixed;
+	top:  0 ;
+	left: 0;
+	right: 0; 
+	height: 68px;
+	line-height: 65px;
+	background-color: #84b6f0;
+	
+}
+
+header * {
+    display: inline;
+    height: 50px;
+}
+header nav{
+    flex: 1;
+    padding-left: 60px;
+}
+header ul {
+    padding: 0;
+}
+
+header li {
+    margin-left: 20px;
+}
+
+header ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0px 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color:#333;
+}
+
+section {
+    height:auto;
+}
+
+#home{
+	height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(255,255,255,0.25),rgba(255,255,255,0.25)), url('https://t4.ftcdn.net/jpg/03/05/30/01/360_F_305300189_KC21WMiAZDMyvppfdMicwixwHenWjggu.jpg');
+    background-position: center;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+#home .autism-child-image {
+    height: 95%;
+    position: absolute;
+    bottom: 100px;
+    right: 100px;
+}
+
+#home h1{
+    font-size: 80px;
+    font-weight: 100;
+    margin-top: 20px;
+
+    color: #232d60;
+}
+
+#home p{
+    font-size: 60px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    color: #6a7199;
+    
+}
+
+#home .header{
+    margin-top: 100px;
+    font-size: 50px;
+	
+
+    display: inline-block;
+    background: linear-gradient(45deg, #87adfe, #f7e7ef);
+    border-radius: 6px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #232d60;
+    box-shadow: 3px 8px 22px rgb(156, 150, 240);
+}
+
+#general{
+	height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(255,255,255,0.25),rgba(255,255,255,0.25)), url('https://t4.ftcdn.net/jpg/03/05/30/01/360_F_305300189_KC21WMiAZDMyvppfdMicwixwHenWjggu.jpg');
+    background-position: center;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+#general h1{
+	font-size: 80px;
+    font-weight: 100;
+    margin-bottom: 20px;
+
+    color: #232d60;
+}
+
+#general p{
+	font-size: 30px;
+	top: 0;
+    margin-bottom: 15px;
+    color: #6a7199;
+}
+
+#general .autism-child2-image{
+	height: 37%;
+    position: absolute;
+    bottom: 40px;
+    left: 100px;
+}
+
+#symptoms{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(255,255,255,0.25),rgba(255,255,255,0.25)), url('https://t4.ftcdn.net/jpg/03/05/30/01/360_F_305300189_KC21WMiAZDMyvppfdMicwixwHenWjggu.jpg');
+    background-position: center;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+#symptoms h1{
+    font-size: 80px;
+    font-weight: 100;
+    margin-bottom: 20px;
+
+    color: #232d60;
+}
+
+#symptoms p{
+    font-size: 30px;
+    top: 0;
+    margin-bottom: 15px;
+    color: #6a7199;
+}
+
+#symptoms ul li{
+    font-size: 25px;
+    color: #333;
+    top: 0;
+
+}
+
+#symptoms .autism-child3-image{
+    height: 35%;
+    position: absolute;
+    bottom: 45px;
+    left: 800px;
+}
+#treatment{
+    height: 115vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(255,255,255,0.25),rgba(255,255,255,0.25)), url('https://t4.ftcdn.net/jpg/03/05/30/01/360_F_305300189_KC21WMiAZDMyvppfdMicwixwHenWjggu.jpg');
+    background-position: center;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+#treatment h1{
+    font-size: 80px;
+    font-weight: 100;
+    margin-bottom: 20px;
+
+    color: #232d60;
+}
+
+#treatment p{
+    font-size: 30px;
+    top: 0;
+    margin-bottom: 15px;
+    color: #6a7199;
+}
+
+#treatment ul li{
+    font-size: 25px;
+    color: #333;
+    top: 0;
+
+}
+#treatment .treatment-for-autism{
+    height: 35%;
+    position: absolute;
+    bottom: 30px;
+    left: 620px;
+}
+
+#references{
+    background-color: #dfe1f0;
+    position: relative;
+    
+}
+
+#references h1{
+	font-size: 80px;
+    font-weight: 100;
+    margin-bottom: 20px;
+	padding: 15px;
+	color:#333;
+}
+
+#references h2{
+    font-size: 40px;
+    font-weight: 50;
+    padding: 8px;
+    color:#333;
+}
+
+#donations{
+    background-color: #dfe1f0;
+    position: relative;
+    
+}
+#donations h1{
+	font-size: 80px;
+    font-weight: 100;
+    margin-bottom: 20px;
+	padding: 15px;
+	color:#333;
+}
+
+#donations h2{
+    font-size: 30px;
+    font-weight: 50;
+    padding: 8px;
+    color:#333;
+}
+
+#donations p{
+    font-size: 20px;
+    font-weight: 50;
+    padding: 5px;
+    color:#6a7199;
+}
+
+#donations .donate-for-autism{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height:40%;
+    width: 30%;
+}
+/* .fa-facebook {
+	color:#333;
+	position: absolute;
+    right: 100px;
+	text-decoration: none;
+}
+
+.fa-twitter{
+	color:#333;
+	position: absolute;
+    right: 80px;
+	text-decoration: none;
+}
+
+.fa-instagram{
+	color:#333;
+	position: absolute;
+    right: 60px;
+	text-decoration: none;
+}
+
+.fa-linkedin{
+	color:#333;
+	position: absolute;
+    right: 38px;
+	text-decoration: none;
+}
+
+.fa-google{
+	color:#333;
+	position: absolute;
+    right: 115px;
+	text-decoration: none;
+} */
+
+.center{
+    text-align: center;
+}
+
