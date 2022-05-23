@@ -125,7 +125,7 @@ section {
 
 #general .autism-child2-image{
 	height: 37%;
-    position: center;
+    position: absolute;
     /* position: absolute; */
     bottom: 100px;
     left: 100px;
@@ -134,7 +134,7 @@ section {
 #symptoms{
     height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(255,255,255,0.25),rgba(255,255,255,0.25)), url('https://t4.ftcdn.net/jpg/03/05/30/01/360_F_305300189_KC21WMiAZDMyvppfdMicwixwHenWjggu.jpg%27);
+    background-image: linear-gradient(rgba(255,255,255,0.25),rgba(255,255,255,0.25)), url('https://t4.ftcdn.net/jpg/03/05/30/01/360_F_305300189_KC21WMiAZDMyvppfdMicwixwHenWjggu.jpg');
     background-position: center;
     background-size: cover;
     padding-left: 5%;
@@ -170,6 +170,66 @@ section {
     position: absolute;
     bottom: 100px;
     left: 100px;
+}
+#treatment{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(255,255,255,0.25),rgba(255,255,255,0.25)), url('https://t4.ftcdn.net/jpg/03/05/30/01/360_F_305300189_KC21WMiAZDMyvppfdMicwixwHenWjggu.jpg');
+    background-position: center;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+#treatment h1{
+    font-size: 80px;
+    font-weight: 100;
+    margin-bottom: 20px;
+
+    color: #232d60;
+}
+
+#treatment p{
+    font-size: 30px;
+    top: 0;
+    margin-bottom: 15px;
+    color: #6a7199;
+}
+
+#treatment ul li{
+    font-size: 25px;
+    color: #333;
+    top: 0;
+
+}
+#treatment .treatment-for-autism{
+    height: 21%;
+    position: absolute;
+    bottom: 100px;
+    left: 100px;
+}
+
+#references{
+    background-color: #dfe1f0;
+    position: center;
+    
+}
+
+#references h1{
+	font-size: 80px;
+    font-weight: 100;
+    margin-bottom: 20px;
+	padding: 15px;
+	color:#333;
+}
+
+#references h2{
+    font-size: 40px;
+    font-weight: 50;
+    padding: 8px;
+    color:#333;
 }
 
 #donations{
